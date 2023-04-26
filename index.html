@@ -1,0 +1,330 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+      <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top navbar-custom">
+        <div class="container-fluid">
+         <a href="#home"> <img src="img/logo1.png" class="img-responsive"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav navi-tag">
+              <li class="nav-item">
+                <a class="nav-link" href="#document">Docs</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#example">Examples</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#bs-icon">Icons</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#theme">Themes</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#blog">Blog</a>
+              </li>
+              <li class="dropdown">
+                <li class="nav-item dropdown">  
+                  <a class="nav-link dropdown-toggle" href="#"  data-bs-toggle="dropdown" >
+                    V5.3 </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">v5 releases</a></li>
+                  <li class="bg-ddl"><a class="dropdown-item text-white" href="#">Latest (5.3.x) v</a></li>
+                  <li><a class="dropdown-item" href="#">Latest (5.3.x)</a></li>
+                  <li><a class="dropdown-item" href="#">v5.1.3</a></li>
+                  <li><hr class="dropdown-divider"></hr></li> 
+                  <li><a class="dropdown-item" href="#">Previous release</a></li>
+                  <li><a class="dropdown-item" href="#">v4.6.x</a></li>
+                  <li><a class="dropdown-item" href="#">v2.3.2</a></li>
+                  <li><hr class="dropdown-divider"></hr></li> 
+                  <li><a class="dropdown-item" href="#">All versions</a></li>
+                </ul> 
+              </li>
+              </li> 
+            </ul>
+
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fa fa-github"></i></a>
+              </li>
+              <li class="nav-item">
+                <a href="#" class="nav-link"><i class="fa fa-twitter"></i></a>
+              </li>
+            </ul>
+
+          </div>
+        </div>
+      </nav> 
+
+       <section id="home">
+         <div class="container">
+           <div class="row mt-4">
+             <div class="home-tagline mt-4 d-flex justify-content-center align-items-center">
+                <button class="btn mt-4 text-center">New in v5.3</button>
+                <p class="pt-2 mt-4 ms-4 text-center">Color mode support, expanded color palette and more!</p>
+             </div>
+             <img src="img/logo1.png" class="img-fluid rounded mx-auto d-block mt-4">
+             <div class="main-heading mt-4">
+               <h1 class="text-center fw-bold">Build fast, responsive sites</h1>
+               <h1 class="text-center fw-bold">with Bootstrap</h1>
+               <div class="desc">
+                 <p class="text-center fs-5 container">
+                  Powerful, extensible, and feature-packed frontend toolkit. Build and customize 
+                  with Sass, utilize prebuilt grid system and components, & bring projects to life with powerful JavaScript plugins.
+                 </p>
+               </div>
+             </div>
+             <div class="tag-box d-flex justify-content-center">
+               <p class="p-3 tag-cmd ms-3">$ npm i bootstrap@5.3.0-alpha3 <i class="fa fa-clipboard ms-4"></i> </p>
+               <p class="p-3 btn btn text-white fw-bold ms-3 bg-read">Read the Docs <i class="fa fa-file-text ps-2"></i> </p>
+             </div>
+           </div>
+         </div>
+          
+       
+      </section> 
+      <!--document-->
+      <section id="document">
+        <div class="container d-flex justify-content-center">
+            <div class="row">
+              <h1 class="mt-5 fw-bold text-center">Get started any way you want</h1>
+              <div class="document-desc text-center mt-2 fs-4">
+                <p>Jump right into building with Bootstrap—use the CDN, install it via package manager, 
+                or download the source code. </p>
+                <a href="#"><h4><small>Read Installation docs <i class="fa fa-arrow-right"></i></small> </h4></a>
+              </div>
+            </div>
+        </div>
+        <div class="document-content">
+
+          <div class="document-package d-flex justify-content-center">
+
+            <div class="container">
+              <div class="row">
+                  <h1><i class="fa fa-cube text-muted"></i> </h1>
+                  <h3 class="fw-bold">Install via package manager</h3>
+                  <p class="">
+                    Install Bootstrap’s source Sass and JavaScript files via npm, RubyGems, 
+                     Composer, or Meteor. Package managed installs don’t include documentation 
+                      or our full build scripts. You can also <a href="#">use any demo from our Examples repo</a> 
+                      to quickly jumpstart Bootstrap projects. 
+                  </p>
+                  <div class="doc-tag-box">
+                    <p class="tag-cmd p-3">$ npm install bootstrap@5.3.0-alpha3 <i class="fa fa-clipboard"></i></p>
+                    <p class="tag-cmd p-3">$ gem install bootstrap -v 5.3.0.alpha3 <i class="fa fa-clipboard"></i></p>
+                  </div>
+              </div>
+            </div>
+            <div class="container">
+              <div class="row">
+                <h1><i class="fa fa-globe text-muted"></i> </h1>
+                <h3 class="fw-bold">Include via CDN</h3>
+                <p class="t">
+                  When you only need to include Bootstrap’s compiled CSS or JS, you can use  
+                  <a href="#">jsDelivr</a>. See it in action with our simple <a href="#">quick start</a>, or <a href="#">browse the examples</a> to 
+                  jumpstart your next project. You can also choose to include Popper and our  
+                  JS <a href="#">separately</a>. 
+                </p>
+                <div class="doc-tag-box">
+                  <p class="tag-cmd p-3"> 
+                    https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css
+                   <i class="fa fa-clipboard ms-2"></i>
+                  </p>
+                  <p class="tag-cmd p-3">
+                    https://cdn.jsdelivr.net/npm/bs@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js
+                    <i class="fa fa-clipboard ms-4"></i></p>
+                </div>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+      <!--Example-->
+      <section id="example">
+        <div class="container">
+          <div class="row">
+            <div class="example-content d-flex justify-content-between mb-4">
+              <div class="example-desc">
+                <h1 class="mt-5">Examples</h1>
+                <h3 class="fs-4 mt-2 display-4">
+                  Quickly get a project started with any of our examples ranging from using parts of <br>
+                  the framework to custom components and layouts.
+                </h3>
+                <div class="example-button mt-4 d-flex justify-content-center">
+                  <button class="btn bg-read text-white p-3 fs-5 fw-bold me-2"><i class="fa fa-cube pe-2"></i> Download Examples</button>
+                  <button class="btn text-muted p-3 fs-5 btn-outline-dark">Download Source Code</button>
+                </div>
+            </div>
+            <div class="advertisement mt-5 d-flex justify-content-center">
+              <img src="img/ad.jpg">
+              <p class="d-flex align-items-center">Get 10 Free Images From Adobe Stock.
+                 Start Now. 
+                ads via Carbon</p>
+            </div>
+            </div>
+            <hr>
+          </div>
+        </div>
+        <div class="container">
+          <div class="row">
+            <h1>Starter</h1>
+            <p>Functional examples of using Bootstrap in common JS frameworks like Webpack, Parcel, Vite, and more you can edit in StackBlitz.</p>
+            <div class="cards d-flex justify-content-between">
+              <div class="starter-card">
+                <h4> <i class="fa fa-cube"></i> <a href="#">CDN starter</a></h4>
+                <p class="ps-4">Instantly include Bootstrap's compiled CSS and JavaScript via the jsDelivr CDN.</p>
+                <h6 class="ps-4"> <a href="#" class="link-secondary"><i class="fa fa-flash"></i> Edit in StackBiltz</a></h6>
+              </div>
+              <div class="starter-card">
+                <h4> <i class="fa fa-cube"></i> <a href="#">Sass & js</a></h4>
+                <p class="ps-4">Use npm to import and compile Bootstrap's Sass with Autoprefixer and Stylelint, plus our bundled JavaScript.</p>
+                <h6 class="ps-4"> <a href="#" class="link-secondary"><i class="fa fa-flash"></i> Edit in StackBiltz</a></h6>
+              </div>
+              <div class="starter-card">
+                <h4> <i class="fa fa-cube"></i> <a href="#">Sass & ESM js</a></h4>
+                <p class="ps-4">Import and compile Bootstrap's Sass with Autoprefixer and Stylelint, and compile our source JavaScript with an ESM shim.</p>
+                <h6 class="ps-4"> <a href="#" class="link-secondary"><i class="fa fa-flash"></i> Edit in StackBiltz</a></h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--icon-->
+      <section id="bs-icon">
+        <div class="container">
+          <div class="row">
+            <div class="icon-content d-flex justify-content-between">
+              <div class="icon-text mt-4">              
+                  <div class="tag-line rounded-pill p-2 mt-5 text-bg-info ">
+                    <span class="fw-bold">New in v1.10.0:</span> 140+ new icons!
+                  </div>
+                  <p class="h1 mt-3">Bootstrap Icons</p>
+                  <p class="h4 mt-4">Free, high quality, open source icon library with over 
+                    1,800 icons. Include them anyway you like—SVGs, 
+                    SVG sprite, or web fonts. Use them with or without 
+                    a href="#">Bootstrap</a> in any project.
+                  </p>
+                  <div class="icon-tag d-flex justify-content-center mt-4">
+                    <p class="p-3 me-4 tag-cmd">$ npm i bootstrap-icons <i class="fa fa-clipboard ms-4"></i> </p>
+                    <p class="btn btn-outline-dark mx-auto pt-3"> <i class="fa fa-cube"></i> Open in Figma</p>
+                  </div> 
+              </div>
+              <div class="icon-img mt-4">
+                  <img src="img/icon.jpg" class="mt-4"> 
+              </div>
+            </div>
+            <hr class="mt-4 mb-4">
+            <div class="current-updation d-block">
+              <p>
+                <span class="text-muted">Currently</span> 
+                  <a href="#">v1.10.4</a>
+                  <a href="#">Icon Sprite</a>
+                  <a href="#">Install</a>
+                  <a href="#">Usage</a>
+                  <a href="#">Styling</a>
+                  <a href="#">Accessibility</a>
+                  <a href="#">GitHub repo</a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!--theme-->
+      <section id="theme">
+        <div class="container">
+          <div class="row">
+              <div class="theme-content mt-4">
+                <img src="img/theme.png" class="img-fluid rounded mx-auto d-block mt-4">
+                <div class="theme-text text-center">
+                  <p class="display-1 fw-bold">Build anything</p>
+                  <p class="fs-5 text-muted">Themes built by or reviewed by Bootstrap's creators.</p>
+                  <button class="btn btn-lg text-white bg-read">why our themes?</button>
+                </div>
+              </div>
+             
+                  <div class="latest mt-2 d-flex justify-content-between">
+                    <div class="left ms-4">
+                      <p> 
+                          <span class="latest-tag display-5 fs-3"><p>Latest</p></span>
+                          <p class="text-muted">Most recently added to our collection.</p>
+                      </p>
+                    </div>
+                    <div class="right me-4">
+                      <button class="btn bg-read-border">View All</button>
+                    </div>
+                  </div>
+             
+          </div>
+        </div>
+      </section>
+      <!--blog-->
+      <section id="blog">
+        <div class="container">
+          <div class="row">
+            <div class="blog-content mt-4 d-flex">
+              <div class="blog-left">
+                <div class="blog-img d-flex justify-content-center">
+                  <img src="img/logo1.png" class=" mt-4 img-fluid">
+                </div>
+                <p class="blog-title display-6 fw-bold mt-4">The Bootstrap Blog</p>
+                <p>
+                  News and announcements for all things
+                  <a href="#">Bootstrap</a>, including new releases, <a href="#">Bootstrap
+                  Themes </a> , and <a href="#">Bootstrap Icons</a> . 
+                </p>
+                <p class="fs-5 bg-light ps-4"> <i class="fa fa-send-o bg-read-color"></i> All Posts</p>
+                <p class=" ms-4 text-secondary"> <i class="fa fa-envelope-o text-info me-2"></i> Archive</p>
+                <p class=" ms-4 text-secondary"> <i class="fa fa-film text-success me-2"></i> Videos</p>
+              </div>
+              <div class="blog-right ms-4">
+                <p class="h2 fw-bold mt-4">Bootstrap 5.3.0-alpha3</p>
+                <h4>
+                  <i class="fa fa-user-o ms-3"></i> <span class="text-muted fs-6">@user</span>
+                  <i class="fa fa-calendar ms-3"></i> <span class="text-muted fs-6">25-04-2023</span>
+                </h4>
+                <p class="fs-4 display-4 mt-4">
+                  Hot on the heels of our second alpha, we’re releasing a third (and unexpected) 
+                  alpha for v5.3.0 today with some fixes for some Node Sass compilation errors. In 
+                  addition, we’ve added a handful of other updates. We’re still on target to ship
+                  our stable release soon!
+                </p>
+                <p class="h3 fs-4">Get the release</p>
+                <p> 
+                  <span class="fw-bold">Head to</span> 
+                  <a href="#" class="fw-bold"> https://getbootstrap.com</a> 
+                  <span class="fw-bold">for the latest.</span>
+                   It’s also been pushed to npm:
+                </p>
+                <div class="tag-box">
+                  <p class="tag-cmd p-3 d-flex justify-content-between"> 
+                    <span>$ npm i bootstrap@v5.3.0-alpha3</span>  
+                    <i class="fa fa-clipboard"></i> 
+                  </p>
+                  <p class="fs-5"> 
+                    <a href="#">Read the GitHub v5.3.0-alpha3 changelog </a> 
+                    for a complete list of changes in this release.
+                  </p>    
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+</body>
+</html>
+
+
